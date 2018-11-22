@@ -1,0 +1,10 @@
+Placez vos images dans le dossier image (le script ne prend que des .jpg mais vous pouvez l'adapter facilement)
+
+Ouvrez une commande Windows et lancez :
+python mobilenetssd_images.py D:\workspaces\pet-detection
+
+si vous ajoutez xml à la fin, il créera les fichiers xml et les crops associés, sinon juste les labels d'images !
+
+==> il va prendre le modèle pré-entraîné qui est dans le répertoire
+==> charger les images
+==> sauvegarder les résultats dans /generated
